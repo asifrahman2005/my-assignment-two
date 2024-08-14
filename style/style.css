@@ -107,7 +107,7 @@ main {
 }
 
 .banner-container {
-    margin-top: 90px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -267,6 +267,182 @@ main {
     font-size: 14px;
 }
 
+/* section-one-change-your-habits-part-end */
+
+/* section two run extra part start */
+
+.section-two-run {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    border-radius: 18px;
+    margin-top: 80px;
+}
+
+.run-content-title {
+    width: 443px;
+    height: 290px;
+}
+
+.run-content-title h2 {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.run-content-title p {
+    margin: 34px 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.run-img-container {
+    width: 366px;
+    height: 250px;
+}
+
+.run-img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+/* section two run extra part end */
+
+/* section three exercises part start */
+
+.section-three-exercises {
+    margin: 70px 0;
+}
+
+.exercises-section-title {
+    margin-bottom: 50px;
+}
+
+.exercises-section-title h2 {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.exercises-section-title p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    width: 600px;
+}
+
+.box-1 {
+    display: grid;
+    grid-template-columns: 280px auto 340px;
+}
+
+.box-2 {
+    display: grid;
+    grid-template-columns: auto 300px 390px;
+}
+
+.exercises-name {
+    height: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.exercises-name p {
+    width: 200px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+#item-1 {
+    background-image: linear-gradient(to top,
+            rgba(0, 255, 255, 0.423),
+            rgba(0, 255, 255, 0.443)),
+        url(../images/exercise1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item-2 {
+    justify-content: start;
+
+    background-image: linear-gradient(to top,
+            rgba(255, 0, 0, 0.3),
+            rgba(255, 0, 0, 0.3)),
+        url(../images/exercise2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item-3 {
+    background-image: linear-gradient(to top,
+            rgba(0, 0, 0, 0.423),
+            rgba(0, 0, 0, 0.443)),
+        url(../images/exercise3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item-4 {
+    justify-content: start;
+    align-items: end;
+    background-image: linear-gradient(to top,
+            rgba(10, 10, 10, 0.551),
+            rgba(10, 10, 10, 0.551)),
+        url(../images/exercise4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item-5 {
+    background-image: linear-gradient(to top,
+            rgba(0, 250, 0, 0.251),
+            rgba(0, 250, 0, 0.251)),
+        url(../images/exercise5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item-6 {
+    background-image: linear-gradient(to top,
+            rgba(0, 0, 200, 0.323),
+            rgba(0, 0, 200, 0.343)),
+        url(../images/exercise6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* section four bmi part start */
+
+.section-four-bmi-title {
+    width: 65%;
+    margin: 0 auto;
+    /* border: 2px solid white; */
+}
+
+.section-four-bmi-title h2 {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 700px;
+    margin-bottom: 25px;
+}
+
+.section-four-bmi-title p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    width: 600px;
+}
+
 /* Media Quary-for Mobile phone  */
 @media screen and (max-width: 576px) {
     body {
@@ -334,7 +510,7 @@ main {
     .habits-section-one {
         width: 100%;
         margin-top: 570px;
-        justify-items: center; 
+        justify-items: center;
     }
 
     .habits-title {
@@ -355,4 +531,75 @@ main {
     .habits-content {
         margin-top: 40px;
     }
+
+    /* section two run extra part */
+    .section-two-run {
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(34, 34, 34);
+        border-radius: 18px;
+    }
+
+    .run-content-title {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .run-img-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .run-content-title,
+    .btn-primary {
+        width: 100%;
+    }
+
+    /* section three exercises part */
+    .section-three-exercises {
+        width: 100%;
+      }
+      .exercises-section-title h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+      .exercises-section-title p {
+        width: 100%;
+      }
+      .box-1 {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .box-2 {
+        width: 100%;
+        grid-template-columns: 210px auto;
+      }
+      #item-5 {
+        width: 100%;
+      }
+      .exercises-name {
+        height: 170px;
+        padding: 10px;
+      }
+    
+      #item-3 {
+        display: none;
+      }
+      #item-4 p {
+        font-size: 11px;
+        margin: 120px 0;
+      }
+      #item-6 {
+        display: none;
+      }
+
+    /* section four bmi part */
+    .section-four-bmi-title {
+        width: 100%;
+    }
+    .section-four-bmi-title p {
+        width: 300px;
+    }
+
 }

@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
 }
+
+.shape {
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 * {
     margin: 0;
@@ -23,10 +33,6 @@ main {
     margin: 70px auto;
     /* border: 5px solid white; */
 }
-
-/* section {
-    margin-top: 10px;
-} */
 
 #banner-btn {
     display: flex;
@@ -116,6 +122,10 @@ main {
     color: rgb(255, 255, 255);
     ;
     font-size: 70px;
+}
+
+.shape{
+    font-size: 90px;
 }
 
 .banner-container p {
@@ -212,7 +222,7 @@ main {
 }
 
 .fa-solid {
-    border: 1px solid rgb(250, 250, 249);
+    /* border: 1px solid rgb(250, 250, 249); */
     margin: 12px 12px 12px 12px;
 }
 
@@ -667,7 +677,7 @@ select {
     border-top: 0.1px solid rgba(255, 255, 255, 0.5);
 }
 
-/* Media Quary-for Mobile phone  */
+/* Media Query-for Mobile phone  */
 @media screen and (max-width: 576px) {
     body {
         margin: 0 auto;
@@ -675,7 +685,7 @@ select {
 
     .header-content {
         width: 100%;
-        height: 1200px;
+        height: auto;
         margin: 50px auto;
         padding: 0 30px;
 
@@ -703,7 +713,7 @@ select {
 
     .banner-img {
         width: 95%;
-        height: 750px;
+        height: 580px;
         margin-top: 50px;
         margin-right: 0;
         background-position: center;
@@ -722,14 +732,14 @@ select {
     }
 
     /* section-one-change-your-habits-part  */
-    main {
+     main {
         width: 90%;
         margin: 0 auto;
     }
 
     .habits-section-one {
         width: 100%;
-        margin-top: 570px;
+        margin-top: 500px;
         justify-items: center;
     }
 
@@ -737,7 +747,7 @@ select {
         width: 99%;
         margin: 0 auto;
         text-align: center;
-        margin-bottom: 70px;
+        margin-bottom: 20px;
         font-size: 18px;
     }
 
@@ -750,10 +760,10 @@ select {
 
     .habits-content {
         margin-top: 40px;
-    }
+    } 
 
     /* section two run extra part */
-    .section-two-run {
+     .section-two-run {
         flex-direction: column;
         align-items: center;
         background-color: rgb(34, 34, 34);
@@ -823,7 +833,7 @@ select {
     }
 
     /* section four bmi part */
-    .section-four-bmi-title {
+     .section-four-bmi-title {
         width: 100%;
     }
 
@@ -904,7 +914,7 @@ select {
     /* footer section  */
     .footer-section {
         width: 100%;
-        height: 100%;
+        height: 1350px;
     }
 
     .footer-container {
